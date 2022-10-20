@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int menu
+int menu;
 
 struct funcionario
 {
@@ -43,8 +43,6 @@ int main ()
 			break;
 	}
 	printf("\nSalario: %.2f", salario);
-	
-	}while (menu!=2);
 	
 	return 0;
 }
