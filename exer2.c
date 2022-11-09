@@ -1,4 +1,4 @@
-//Construa um algoritmo que calcule a ·rea de um cÌrculo cujo raio È fornecido pelo usu·rio (use ·rea= 3.14 x raio2).
+//Construa um algoritmo que calcule a √°rea de um c√≠rculo cujo raio √© fornecido pelo usu√°rio (use √°rea= 3.14 x raio2).
 
 #include <stdio.h>
 
@@ -25,7 +25,7 @@ int main()
 	}
 	
 	else {
-		printf("\nObrigado, atÈ mais ! :)");
+		printf("\nObrigado, at√© mais ! :)");
 	}
 	
 	} while (op!=2);
