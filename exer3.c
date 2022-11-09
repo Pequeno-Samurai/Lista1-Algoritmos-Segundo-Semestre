@@ -1,4 +1,4 @@
-//Construa um algoritmo que calcule a média aritmética de 3 números quaisquer fornecidos pelo usuário.
+//Construa um algoritmo que calcule a mÃ©dia aritmÃ©tica de 3 nÃºmeros quaisquer fornecidos pelo usuÃ¡rio.
 
 #include <stdio.h>
 
