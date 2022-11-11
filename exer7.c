@@ -1,9 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <iostream>
-using namespace std;
-
-int menu;
 
 struct funcionario
 {
@@ -15,11 +10,11 @@ int main ()
 {
 		
 	struct funcionario func1;
-	printf("\nDigite o nome do funcionario: ");
+	printf("Digite o nome do funcionario: ");
 	gets(func1.nome);
 
 	printf("\nDigite seu sexo f ou m: ");
-	scanf("%s", &func1.sexo);
+	scanf("%c", &func1.sexo);
 	printf("\nDigite o numero da matricula: ");
 	scanf("%d", &func1.matricula);
 	printf("\nDigite o numero de horas trabalhadas diariamente: ");
@@ -46,4 +41,3 @@ int main ()
 	
 	return 0;
 }
-
